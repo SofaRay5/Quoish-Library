@@ -15,7 +15,7 @@ $$        \begin{aligned}
         12 \text{ 或 } 21 & \rightarrow 6
         \end{aligned}$$
 由此将两个指标$ij$化为一个指标$\alpha$。
-在物理学中，这样对称二阶张量的实例有应力$\sigma_{ij}=\sigma_{\alpha}$，应变$\varepsilon_{ij}=\varepsilon_{\alpha}$。
+在物理学中，这样的对称二阶张量的实例有应力$\sigma_{ij}=\sigma_{\alpha}$，应变$\varepsilon_{ij}=\varepsilon_{\alpha}$。
 # 三阶张量
 三阶张量$P_{ijk}$原本有$3\times3\times 3=27$个分量。
 但当三阶张量的其中两个具有指标对称性$P_{ijk}=P_{ikj}$时，**独立的分量从27个变成18个**。
@@ -30,7 +30,7 @@ $$        \begin{aligned}
         12 \text{ 或 } 21 & \rightarrow 6
         \end{aligned}$$
 由此将三个指标$ijk$化为两个指标$i\beta$。
-在物理学中，这样对称二阶张量的实例有压电常数$d_{ijk}=d_{i\beta}$。
+在物理学中，这样的对称二阶张量的实例有压电常数$d_{ijk}=d_{i\beta}$。
 # 四阶张量
 四阶张量$E_{ijkl}$原本有$3\times3\times 3\times 3=81$个分量。
 四阶在使用Voigt记号简化时，需要满足以下对称性之一。
@@ -41,3 +41,8 @@ $$        \begin{aligned}
 当其中两对指标满足对称性$E_{ijkl}=E_{jikl}=E_{ijlk}$时，独立的变量从81个变成36个。
 把前两个指标$ij$按照Voigt规则映射为$\alpha$，把后两个指标$kl$按照Voigt规则映射为$\beta$。
 由此将四个指标$ijkl$化为两个指标$\alpha \beta$。
+在物理学中，这样的小对称四阶张量的实例有弹性刚度张量$C_{ijkl}=C_{\alpha \beta}$。
+## 大对称性
+当其中两对指标满足对称性$E_{ijkl}=E_{jikl}=E_{ijlk}$时，且第一对指标和第二对指标也对称时$E_{ijkl}=E_{klij}$，**独立的变量从81个变成21个**。
+这意味着在利用小对称性将四阶张量$E_{ijkl}$化为二阶张量$E_{\alpha \beta}$时，二阶张量$E_{\alpha \beta}$也是个二阶对称张量，它可以继续利用Voigt规则化为有21个分量的一阶张量$E_{\mathcal{A}}$。
+在物理学中，这样的小对称四阶张量的实例有超弹性刚度张量$C_{ijkl}=C_{\alpha \beta}=C_{\mathcal{A}}$。
