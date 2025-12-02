@@ -16,6 +16,9 @@ $$        \begin{aligned}
         \end{aligned}$$
 由此将两个指标$ij$化为一个指标$\alpha$。
 在物理学中，这样的对称二阶张量的实例有应力$\sigma_{ij}=\sigma_{\alpha}$，应变$\varepsilon_{ij}=\varepsilon_{\alpha}$。
+## 因子2问题
+在文献中Voigt记号通常存在两种约定。
+学术中更多采用包含因子2的约定
 # 三阶张量
 三阶张量$P_{ijk}$原本有$3\times3\times 3=27$个分量。
 但当三阶张量的其中两个具有指标对称性$P_{ijk}=P_{ikj}$时，**独立的分量从27个变成18个**。
