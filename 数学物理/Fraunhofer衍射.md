@@ -137,7 +137,7 @@ $$\begin{equation}
 ![[夫琅禾费圆孔衍射.png]]
 设光经过一个半径为$a$的圆孔发生Fraunhofer衍射，紧贴衍射孔的透镜焦距为$f$。
 将积分公式作柱坐标变换得到$$\tilde{E}(\rho,\varphi)=C\int_{0}^{a}\int_{0}^{2\pi}e^{ -ik\rho_{1}\cos(\varphi_{1}-\varphi) }\rho_{1}\mathrm{d}\rho_{1}\mathrm{d}\varphi_{1}$$其中$\theta=\rho/f$（利用了$\theta\approx \tan \theta$），是衍射方向和光轴的夹角，称为衍射角。
-根据[[Bassel函数#积分表达式]]的零阶情况$$J_{0}(x)=\frac{1}{2\pi}\int_{-\pi}^{\pi}e^{ -ix\sin \theta }\mathrm{d}\theta=\frac{1}{2\pi}\int_{0}^{2\pi}e^{ -ix \cos \theta}$$再利用[[Bassel函数#微分递推公式]]可以得到$$\boxed{\tilde{E}(\rho,\varphi)=\frac{2\pi a^2}{ka\theta}CJ_{1}(ka\theta)=SC\left[ \frac{2J_{1}(\Phi)}{\Phi} \right]}$$光强分布为$$\boxed{I(\rho,\varphi)=I_{0}\left[ \frac{2J_{1}(\Phi)}{\Phi} \right]^2}$$其中$I_{0}=S^2(A/\lambda f)^2$是中心点$P_{0}$点的光强，$S=\pi a^2$是圆孔面积，$\Phi=ka\theta$是圆孔边缘中心点与在同一$\theta$方向上光线之间的相位差。
+根据[[Bassel函数#积分表达式]]的零阶情况$$J_{0}(x)=\frac{1}{2\pi}\int_{-\pi}^{\pi}e^{ -ix\sin \theta }\mathrm{d}\theta=\frac{1}{2\pi}\int_{0}^{2\pi}e^{ -ix \cos \theta}\mathrm{d}\theta$$再利用[[Bassel函数#微分递推公式]]可以得到$$\boxed{\tilde{E}(\rho,\varphi)=\frac{2\pi a^2}{ka\theta}CJ_{1}(ka\theta)=SC\left[ \frac{2J_{1}(\Phi)}{\Phi} \right]}$$光强分布为$$\boxed{I(\rho,\varphi)=I_{0}\left[ \frac{2J_{1}(\Phi)}{\Phi} \right]^2}$$其中$I_{0}=S^2(A/\lambda f)^2$是中心点$P_{0}$点的光强，$S=\pi a^2$是圆孔面积，$\Phi=ka\theta$是圆孔边缘中心点与在同一$\theta$方向上光线之间的相位差。
 ## 衍射光强分布
 由于$\Phi=ka\theta$，说明光强分布仅和衍射角$\theta$有关，而与方位角$\varphi$无关，这说明衍射图样为圆形。
 求导得到光强取机制的条件为$$\frac{ \mathrm{d}   }{ \mathrm{d}  \Phi} \left[ \frac{J_{1}(\Phi)}{\Phi} \right]=-\frac{J_{2}(\Phi)}{\Phi}=0$$称$\Phi=0$时为主极大，其他的极大值为次极大，剩下那些为0的就是极小。
