@@ -1,0 +1,21 @@
+# 基本站点信息
+title: "Quoish's Library"
+description: "Quoish 的个人知识库 / 笔记图书馆"
+author: "Quoish"
+language: "zh-CN"
+
+# GitHub 相关
+github_username: "SofaRay5"
+
+# 用于生成正确的链接（注意大小写不敏感）
+url: "https://sofaray5.github.io"
+baseurl: "/Quoish-Library"
+
+# 使用 GitHub Pages 内置的 minima 主题
+theme: minima
+
+# Markdown 解析器
+markdown: kramdown
+
+# Minima 主题的一些可选配置（可以按需调整）
+show_excerpts: false
